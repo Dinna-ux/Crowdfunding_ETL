@@ -16,6 +16,7 @@ Group members: Dinna Witness, Elizabeth Dashwood, Lindsay McCulloch, Sri Penumat
 * **Results** folder
   * 4 `.csv` files containing result outputs
 * `ETL_mini_project_team4.ipynb` containing main code for this project
+* `Crowdfunding_ETL_Project2_Screenshots.docx` containing screenshots of all sections of this project as completed
 
 ## Background
 
