@@ -126,3 +126,6 @@ The instructions for this mini project are divided into the following subsection
 ## Resources
 
 BCS Xpert Learning assistant 
+
+## Acknowledgments
+- Dataset provided from by edX Boot Camps LLC.
