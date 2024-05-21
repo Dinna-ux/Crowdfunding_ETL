@@ -129,4 +129,4 @@ BCS Xpert Learning assistant
 
 ## Acknowledgments
 
-* Dataset provided by edX Boot Camps LLC.
+* Datasets provided by edX Boot Camps LLC.
