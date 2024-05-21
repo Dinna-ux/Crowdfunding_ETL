@@ -1,3 +1,11 @@
+-- Drop existing tables if they exist
+DROP TABLE IF EXISTS Campaign;
+DROP TABLE IF EXISTS Category;
+DROP TABLE IF EXISTS Subcategory;
+DROP TABLE IF EXISTS Contacts;
+
+
+-- Import the tables as shown 
 -- Create the Category table
 CREATE TABLE Category (
     category_id VARCHAR(4) PRIMARY KEY,
@@ -10,7 +18,7 @@ CREATE TABLE Subcategory (
     subcategory VARCHAR(255) NOT NULL
 );
 
--- Create the Contact table
+-- Create the Contacts table
 CREATE TABLE Contacts (
     contact_id int PRIMARY KEY,
     first_name VARCHAR(255) NOT NULL,
@@ -23,9 +31,9 @@ CREATE TABLE Campaign (
     cf_id INT PRIMARY KEY,
     contact_id INT,
     company_name VARCHAR(255) NOT NULL,
-    description TEXT NOT NULL,
-    goal DOUBLE PRECISION NOT NULL,
-    pledged DOUBLE PRECISION NOT NULL,
+    description VARCHAR(255) NOT NULL,
+    goal Double PRECISION NOT NULL,
+    pledged Double PRECISION NOT NULL,
     outcome VARCHAR(10) NOT NULL,
     backers_count INT NOT NULL,
     country VARCHAR(2) NOT NULL,
@@ -39,6 +47,9 @@ CREATE TABLE Campaign (
     FOREIGN KEY (subcategory_id) REFERENCES Subcategory(subcategory_id)
 );
 
+
+/* Import the data from the CSV files(Crowdfunding_ETL\Results) into relevant tables 
+-- Run select statements to view the records*/
 
 select * from category;
 select * from subcategory;
