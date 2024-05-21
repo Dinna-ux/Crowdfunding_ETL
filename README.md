@@ -6,6 +6,10 @@ Group members: Dinna Witness, Elizabeth Dashwood, Lindsay McCulloch, Sri Penumat
 
 ## Contents
 
+* **Database** folder
+    * `.pdf` file with table schema 
+    * `.png` file with table schema diagram
+    * `crowdfundin_db_scheme.sql` file wtih SQL queries
 * **Resources** folder
     * 2 `.xlsx` files containing raw data
     * `example.png` used for `README.md`
