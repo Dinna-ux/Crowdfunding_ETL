@@ -6,11 +6,15 @@ Group members: Dinna Witness, Elizabeth Dashwood, Lindsay McCulloch, Sri Penumat
 
 ## Contents
 
+* **Database** folder
+  * `.pdf` file with table schema
+  * `.png` file with table schema diagram
+  * `crowdfunding_db_schema.sql` file with SQL queries
 * **Resources** folder
-    * 2 `.xlsx` files containing raw data
-    * `example.png` used for `README.md`
+  * 2 `.xlsx` files containing raw data
+  * `example.png` used for `README.md`
 * **Results** folder
-    * 4 `.csv` files containing result outputs
+  * 4 `.csv` files containing result outputs
 * `ETL_mini_project_team4.ipynb` containing main code for this project
 
 ## Background
@@ -113,12 +117,16 @@ The instructions for this mini project are divided into the following subsection
 
 5. Using the database schema, create the tables in the correct order to handle the foreign keys.
 
-6. Verify the table creation by running a SELECT statement for each table.
+6. Verify the table creation by running a `SELECT` statement for each table.
 
 7. Import each CSV file into its corresponding SQL table.
 
-8. Verify that each table has the correct data by running a SELECT statement for each.
+8. Verify that each table has the correct data by running a `SELECT` statement for each.
 
 ## Resources
 
-BCS Xpert Learning assistant 
+BCS Xpert Learning assistant
+
+## Acknowledgments
+
+* Datasets provided by edX Boot Camps LLC.
