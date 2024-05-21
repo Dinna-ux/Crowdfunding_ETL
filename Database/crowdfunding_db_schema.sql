@@ -7,7 +7,7 @@ CREATE TABLE Category (
 -- Create the Subcategory table
 CREATE TABLE Subcategory (
     subcategory_id VARCHAR(8) PRIMARY KEY,
-    subcategory VARCHAR(255) NOT NULL,
+    subcategory VARCHAR(255) NOT NULL
 );
 
 -- Create the Contact table
@@ -38,3 +38,9 @@ CREATE TABLE Campaign (
     FOREIGN KEY (category_id) REFERENCES Category(category_id),
     FOREIGN KEY (subcategory_id) REFERENCES Subcategory(subcategory_id)
 );
+
+
+select * from category;
+select * from subcategory;
+select * from contacts;
+select * from campaign;
